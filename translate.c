@@ -27,7 +27,7 @@ int main()
 
     char input[20];
     char output[20];
-    int size = sizeof(input) / sizeof(input[0]);
+    int size = sizeof(input) / sizeof(input[0]); 
 
     printf("input:");
 
