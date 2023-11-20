@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void translate(char input[],int size, char output[])
+void translate(char input[], int size, char output[])
 {
 
     for (int i = 0; i < size; i++)
@@ -27,7 +27,7 @@ int main()
 
     char input[20];
     char output[20];
-    int size = sizeof(input) / sizeof(input[0]); 
+    int size = sizeof(input) / sizeof(input[0]);
 
     printf("input:");
 
@@ -38,7 +38,7 @@ int main()
     //     return 1;
     //   }
 
-    translate(input,size, output);
+    translate(input, size, output);
 
     printf(" Output :%s\n", output);
 
